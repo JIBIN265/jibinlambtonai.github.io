@@ -1,0 +1,39 @@
+{
+  "name": "lambton-ai",
+  "version": "1.0.0",
+  "description": "Lambton AI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Jibin Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "package-name": "^0.1.0",
+    "react-bootstrap": "^2.7.3",
+    "react-hot-toast": "^2.4.0",
+    "react-router-dom": "^6.10.0",
+    "react-tsparticles": "^2.9.3",
+    "tsparticles": "^2.9.3"
+  }
+}
